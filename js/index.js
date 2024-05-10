@@ -126,17 +126,12 @@
 
 // 12- Write a program to enter marks of five subjects and calculate total, average and percentage.
 
-// var num1 = window.prompt('enter first subject')
-// var number1 = parseInt(num1);
-// var num2 = window.prompt('enter second subject')
-// var number2 = parseInt(num2);
-// var num3 = window.prompt('enter third subject')
-// var number3 = parseInt(num3);
-// var num4 = window.prompt('enter fourth subject')
-// var number4 = parseInt(num4);
-// var num5 = window.prompt('enter fifth subject')
-// var number5 = parseInt(num5);
-// console.log(total = (number1 + number2 + number3 + number4 + number5));
+// var num1 = Number(window.prompt('enter first subject'))
+// var num2 = Number(window.prompt('enter second subject'))
+// var num3 = Number(window.prompt('enter third subject'))
+// var num4 = Number(window.prompt('enter fourth subject'))
+// var num5 = Number(window.prompt('enter fifth subject'))
+// console.log(total = (num1 + num2 + num3 + num4 + num5));
 // console.log(total / 5);
 // console.log((total / 500) * 100 +"%");
 
@@ -160,16 +155,11 @@
 // 14- Write a program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer , Find percentage and grade
 
 
-// var num1 = window.prompt('enter Physics subject')
-// var Physics = parseInt(num1);
-// var num2 = window.prompt('enter Chemistry subject')
-// var Chemistry = parseInt(num2);
-// var num3 = window.prompt('enter Biology subject')
-// var Biology = parseInt(num3);
-// var num4 = window.prompt('enter Mathematics subject')
-// var Mathematics = parseInt(num4);
-// var num5 = window.prompt('enter Computer subject')
-// var Computer = parseInt(num5);
+// var Physics = Number(window.prompt('enter Physics subject'))
+// var Chemistry = Number(window.prompt('enter Chemistry subject'))
+// var Biology = Number(window.prompt('enter Biology subject'))
+// var Mathematics = Number(window.prompt('enter Mathematics subject'))
+// var Computer = Number(window.prompt('enter Computer subject'))
 
 // console.log ((precentage = ((Physics + Chemistry + Biology + Mathematics + Computer) / 500) * 100) + '%' ) 
 // if(precentage>=90){
@@ -289,25 +279,23 @@
 
 // 20- Write a program to create Simple Calculator
 
-// var num1 = window.prompt('enter first number');
-// var number1 = parseInt(num1);
+// var num1 = Number(window.prompt('enter first number')); 
 // var operator = window.prompt('enter the operator ( + , - , * , / )');
-// var num2 = window.prompt('enter second number');
-// var number2 = parseInt(num2);
+// var num2 = Number(window.prompt('enter second number'));
 // var result;
 
 // switch (operator) {
 //     case '+' :
-//         console.log(number1 + number2);
+//         console.log(num1 + num2);
 //         break;
 //     case '-' :
-//         console.log(number1 - number2);
+//         console.log(num1 - num2);
 //         break;
 //     case '*' :
-//         console.log(number1 * number2);
+//         console.log(num1 * num2);
 //         break;
 //     case '/' :
-//         console.log(number1 / number2);
+//         console.log(num1 / num2);
 //         break;
 //     default:
 //         console.log('error');
